@@ -1,0 +1,12 @@
+References: 
+
+https://css-tricks.com/body-border/
+
+https://www.google.com/search?rlz=1C1CHZL_enIN812IN812&ei=Nm45XPnwB5WoyAOI84HwBQ&q=green+colour+in+css&oq=green+colour+in+css&gs_l=psy-ab.3..0j0i22i30j0i22i10i30j0i22i30l2.7272.9032..9188...0.0..0.244.1142.0j4j2......0....1..gws-wiz.......0i71j0i67.nsxvWmCBquA
+
+https://www.codeproject.com/Questions/265497/how-to-divide-web-page-in-vertical-columns
+
+
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_blog&stacked=h
+
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_portfolio&stacked=h
