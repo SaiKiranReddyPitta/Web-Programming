@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value; 
+  if (x == "") {
+    alert("Sorry, Every field must be submitted");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post"> <br/>
+  UserName: <input type="text" name="fname"> <br/>
+
+</form>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Sorry, Every field must be submitted");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+ <br/> Comments: <input type="text" name="fname"> 
+  <input type="submit" value="post">
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+               <!--    Username: <input type="UserName" id="UserName" placeholder="Enter UserName"> <br/><br/>
+Comment: <input type="Comment" id="User message" rows="10" placeholder="Enter your message"></textarea> <br/><br/> -->
+
+<!--           <div class="inputContainer">
+                <textarea name="feedback" id="userMessage" rows="10" placeholder="Enter your message"></textarea>
+            </div><br /> -->
+<br/> Password    :  <input type="password" id="myPsw" value="mypwd12345">
+
+
+<button type="button" onclick="myFunction()">Submit</button>
+  
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myPsw");
+  var defaultVal = x.defaultValue;
+  var currentVal = x.value;
+  
+  if (defaultVal == currentVal) {
+    document.getElementById("demo").innerHTML = "You Entered Correct Password"
+;
+  } 
+  else 
+  {
+    document.getElementById("demo").innerHTML = "You Entered Wrong Password, Please Try Again!!";
+  }
+}
+</script>
+</div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #93B874;
+}
+h1 {
+    background-color: #00b33c;
+}
+p {
+    background-color: #FFFFFF);
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
